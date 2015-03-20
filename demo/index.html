@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>jquery.numpad.js</title>
+        <link type="text/css" href="../src/jquery-numpad.css" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script src="../src/jquery-numpad.js"></script>
+    </head>
+    <body>
+
+        <div id="element" style='float: right;'></div>
+
+        <p>Number 1: <input class='inputs' id="number1" type="number"></p>
+        <p>Number 2: <input class='inputs' id="number2" type="number"></p>
+        
+        <script>
+            $(document).ready(function(){
+                $("#element").numpad();
+            });
+        </script>
+    </body>
+</html>
